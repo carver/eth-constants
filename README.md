@@ -1,6 +1,6 @@
 # Ethereum Constants in Python
 
-[![Join the chat at https://gitter.im/ethereum/eth-constants](https://badges.gitter.im/ethereum/eth-constants.svg)](https://gitter.im/ethereum/eth-constants?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ethereum/web3.py](https://badges.gitter.im/ethereum/web3.py.svg)](https://gitter.im/ethereum/web3.py?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://circleci.com/gh/ethereum/eth-constants.svg?style=shield)](https://circleci.com/gh/ethereum/eth-constants)
 [![PyPI version](https://badge.fury.io/py/eth-constants.svg)](https://badge.fury.io/py/eth-constants)
 [![Python versions](https://img.shields.io/pypi/pyversions/eth-constants.svg)](https://pypi.python.org/pypi/eth-constants)
