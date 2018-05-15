@@ -1,7 +1,7 @@
 # Ethereum Constants in Python
 
 [![Join the chat at https://gitter.im/ethereum/web3.py](https://badges.gitter.im/ethereum/web3.py.svg)](https://gitter.im/ethereum/web3.py?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://circleci.com/gh/ethereum/eth-constants.svg?style=shield)](https://circleci.com/gh/ethereum/eth-constants)
+[![Build Status](https://circleci.com/gh/carver/eth-constants.svg?style=shield)](https://circleci.com/gh/carver/eth-constants)
 [![PyPI version](https://badge.fury.io/py/eth-constants.svg)](https://badge.fury.io/py/eth-constants)
 [![Python versions](https://img.shields.io/pypi/pyversions/eth-constants.svg)](https://pypi.python.org/pypi/eth-constants)
 [![Docs build](https://readthedocs.org/projects/eth-constants/badge/?version=latest)](http://eth-constants.readthedocs.io/en/latest/?badge=latest)
@@ -34,7 +34,7 @@ You can set up your dev environment with:
 
 ```sh
 
-git clone git@github.com:ethereum/eth-constants.git
+git clone git@github.com:carver/eth-constants.git
 cd eth-constants
 virtualenv -p python3 venv
 . venv/bin/activate
