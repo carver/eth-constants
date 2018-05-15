@@ -1,7 +1,7 @@
-<PROJECT_NAME>
+Ethereum Constants in Python
 ==============================
 
-<SHORT_DESCRIPTION>
+Easy access to a variety of Ethereum constants in Python
 
 Contents
 --------
@@ -9,7 +9,7 @@ Contents
 .. toctree::
     :maxdepth: 3
 
-    <MODULE_NAME>
+    eth_constants
     releases
 
 

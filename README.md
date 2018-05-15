@@ -1,25 +1,25 @@
-# <PROJECT_NAME>
+# Ethereum Constants in Python
 
-[![Join the chat at https://gitter.im/ethereum/<REPO_NAME>](https://badges.gitter.im/ethereum/<REPO_NAME>.svg)](https://gitter.im/ethereum/<REPO_NAME>?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://circleci.com/gh/ethereum/<REPO_NAME>.svg?style=shield)](https://circleci.com/gh/ethereum/<REPO_NAME>)
-[![PyPI version](https://badge.fury.io/py/<PYPI_NAME>.svg)](https://badge.fury.io/py/<PYPI_NAME>)
-[![Python versions](https://img.shields.io/pypi/pyversions/<PYPI_NAME>.svg)](https://pypi.python.org/pypi/<PYPI_NAME>)
-[![Docs build](https://readthedocs.org/projects/<RTD_NAME>/badge/?version=latest)](http://<RTD_NAME>.readthedocs.io/en/latest/?badge=latest)
+[![Join the chat at https://gitter.im/ethereum/eth-constants](https://badges.gitter.im/ethereum/eth-constants.svg)](https://gitter.im/ethereum/eth-constants?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://circleci.com/gh/ethereum/eth-constants.svg?style=shield)](https://circleci.com/gh/ethereum/eth-constants)
+[![PyPI version](https://badge.fury.io/py/eth-constants.svg)](https://badge.fury.io/py/eth-constants)
+[![Python versions](https://img.shields.io/pypi/pyversions/eth-constants.svg)](https://pypi.python.org/pypi/eth-constants)
+[![Docs build](https://readthedocs.org/projects/eth-constants/badge/?version=latest)](http://eth-constants.readthedocs.io/en/latest/?badge=latest)
    
 
-<SHORT_DESCRIPTION>
+Easy access to a variety of Ethereum constants in Python
 
-Read more in the [documentation on ReadTheDocs](http://<RTD_NAME>.readthedocs.io/). [View the change log](http://<RTD_NAME>.readthedocs.io/en/latest/releases.html).
+Read more in the [documentation on ReadTheDocs](http://eth-constants.readthedocs.io/). [View the change log](http://eth-constants.readthedocs.io/en/latest/releases.html).
 
 ## Quickstart
 
 ```sh
-pip install <PYPI_NAME>
+pip install eth-constants
 ```
 
 ## Developer setup
 
-If you would like to hack on <REPO_NAME>, please check out the
+If you would like to hack on eth-constants, please check out the
 [Ethereum Development Tactical Manual](https://github.com/pipermerriam/ethereum-dev-tactical-manual)
 for information on how we do:
 
@@ -34,8 +34,8 @@ You can set up your dev environment with:
 
 ```sh
 
-git clone git@github.com:ethereum/<REPO_NAME>.git
-cd <REPO_NAME>
+git clone git@github.com:ethereum/eth-constants.git
+cd eth-constants
 virtualenv -p python3 venv
 . venv/bin/activate
 pip install -e .[dev]
@@ -49,7 +49,7 @@ Show flake8 errors on file change:
 
 ```sh
 # Test flake8
-when-changed -v -s -r -1 <MODULE_NAME>/ tests/ -c "clear; flake8 <MODULE_NAME> tests && echo 'flake8 success' || echo 'error'"
+when-changed -v -s -r -1 eth_constants/ tests/ -c "clear; flake8 eth_constants tests && echo 'flake8 success' || echo 'error'"
 ```
 
 Run multi-process tests in one command, but without color:
@@ -65,7 +65,7 @@ Run in one thread, with color and desktop notifications:
 
 ```sh
 cd venv
-ptw --onfail "notify-send -t 5000 'Test failure ⚠⚠⚠⚠⚠' 'python 3 test on <REPO_NAME> failed'" ../tests ../<MODULE_NAME>
+ptw --onfail "notify-send -t 5000 'Test failure ⚠⚠⚠⚠⚠' 'python 3 test on eth-constants failed'" ../tests ../eth_constants
 ```
 
 ### Release setup

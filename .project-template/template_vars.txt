@@ -1,6 +1,6 @@
-<MODULE_NAME>
-<PYPI_NAME>
-<REPO_NAME>
-<RTD_NAME>
-<PROJECT_NAME>
-<SHORT_DESCRIPTION>
+eth_constants
+eth-constants
+eth-constants
+eth-constants
+Ethereum Constants in Python
+Easy access to a variety of Ethereum constants in Python
